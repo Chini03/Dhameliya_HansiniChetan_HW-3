@@ -7,7 +7,7 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to my to-do list!</h1>
+    <h1 class="hidden">Welcome to my to-do list!</h1>
     <header>
         <h2>Chini</h2>
         <ul>
@@ -18,35 +18,35 @@
         </ul>
     </header>
     <main>
-        <h2>Here are the Lists!</h2>
-        <section>
+        <h2 class="hidden">Here are the Lists!</h2>
+        <section id="to-do">
             <h3>To-Do</h3>
             <ul>
-                <li>Laundry</li>
-                <li>FIP - Coding Part</li>
-                <li>Pretend to know things</li>
-                <li>Exercise</li>
-                <li>Work</li>
+                <li><input type="checkbox">Laundry</li>
+                <li><input type="checkbox">FIP - Coding Part</li>
+                <li><input type="checkbox">Pretend to know things</li>
+                <li><input type="checkbox">Exercise</li>
+                <li><input type="checkbox">Work</li>
             </ul>
         </section>
-        <section>
+        <section id="in-progress">
             <h3>In-Progress</h3>
             <ul>
-                <li>Sweep Room</li>
-                <li>FIP - Design Part</li>
-                <li>Prepare Lunch</li>
-                <li>Smart Serve Preparation</li>
-                <li>Existential Crisis</li>
+                <li><input type="checkbox">Sweep Room</li>
+                <li><input type="checkbox">FIP - Design Part</li>
+                <li><input type="checkbox">Prepare Lunch</li>
+                <li><input type="checkbox">Smart Serve Preparation</li>
+                <li><input type="checkbox">Existential Crisis</li>
             </ul>
         </section>
-        <section>
+        <section id="done">
             <h3>Done</h3>
             <ul>
-                <li>Do the dishes</li>
-                <li>Make Breakfast</li>
-                <li>Host a “What If” Scenario Night</li>
-                <li>Talk to friends</li>
-                <li>Take Vitamins</li>
+                <li><input type="checkbox">Do the dishes</li>
+                <li><input type="checkbox">Make Breakfast</li>
+                <li><input type="checkbox">Host a “What If” Scenario Night</li>
+                <li><input type="checkbox">Talk to friends</li>
+                <li><input type="checkbox">Take Vitamins</li>
             </ul>
         </section>
     </main>
