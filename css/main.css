@@ -24,6 +24,8 @@ body{
 
 /* 2. General Styles */
 
+html, body{height: 100%;}
+
 .hidden {display: none;}
 
 .black_font-color_branded{color: #505050;}
@@ -118,6 +120,10 @@ main input {
     margin-right: 16px;
 }
 
+main input[type="checkbox"]:checked + span::after {
+    content: 🤘🏼;
+}
+
 #in-progress {    
     border-right: 4px #505050 solid;
     border-left: 4px #505050 solid;
@@ -125,3 +131,14 @@ main input {
 }
 
 /* 5. Footer */
+
+footer {
+    margin-top: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100%;
+    padding: 24px 0px;
+    background-color: cornflowerblue;
+    position: sticky;
+}
