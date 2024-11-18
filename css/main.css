@@ -50,6 +50,10 @@ ul{padding: 0;}
     /* background: url(../images/back-ground-01.png) no-repeat; */
     background-color: #F9F9F9;
     background-blend-mode:hard-light;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 /* 3. Header */
@@ -58,6 +62,7 @@ header {
     justify-content: space-between;
     background-color: #F9F9F9;
     align-items: center;
+    border-bottom: 2px solid cornflowerblue;
 }
 header h2{
     color: cornflowerblue;
@@ -89,6 +94,7 @@ header a:hover {
 /* 4. Main */
 
 main {
+    /* margin-top: 24px; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -121,8 +127,12 @@ main input {
 }
 
 main input[type="checkbox"]:checked + span::after {
-    content: 🤘🏼;
+    content: "🦾";
 }
+
+/* main input[type="checkbox"]:checked{
+    background-color: black;
+} */
 
 #in-progress {    
     border-right: 4px #505050 solid;
@@ -133,7 +143,7 @@ main input[type="checkbox"]:checked + span::after {
 /* 5. Footer */
 
 footer {
-    margin-top: 270px;
+    /* margin-top: 246px; */
     display: flex;
     justify-content: center;
     align-items: center;
