@@ -122,11 +122,28 @@ main li {
     padding: 8px;
 }
 
+
+
+main ul li:nth-child(odd):hover {
+    background-color: cornflowerblue;
+}
+
+main li:hover {
+    /* border: 3px dotted cornflowerblue; */
+    background-color: cornflowerblue;
+    color:#F9F9F9 ;
+}
+
+
+main li p {
+    display: inline;
+}
+
 main input {
     margin-right: 16px;
 }
 
-main input[type="checkbox"]:checked + span::after {
+main input[type="checkbox"]:checked + p + span::after {
     content: "🦾";
 }
 
