@@ -130,9 +130,9 @@ main input[type="checkbox"]:checked + span::after {
     content: "🦾";
 }
 
-/* main input[type="checkbox"]:checked{
-    background-color: black;
-} */
+main input[type="checkbox"]:checked + p{
+    text-decoration:line-through;
+}
 
 #in-progress {    
     border-right: 4px #505050 solid;
